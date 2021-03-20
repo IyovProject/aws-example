@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.end('Hola Mundo con express!')
+    res.end('<h1>Hola Mundo con express!</h1>')
 });
 
 app.listen(3000);
